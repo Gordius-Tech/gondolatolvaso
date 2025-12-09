@@ -1,6 +1,6 @@
 const signs = ['\u2648','\u2649','\u264A','\u264B','\u264C','\u264D','\u264E','\u264F','\u2650','\u2651','\u2652','\u2653'];
 const total = 100;
-const perRow = 14;
+const perRow = 15;
 const container = document.getElementById('columns-container');
 
 const specialSign = signs[Math.floor(Math.random() * signs.length)];
@@ -49,3 +49,4 @@ btn.addEventListener('click', function() {
   resetBtnContainer.appendChild(resetBtn);
   mainContent.appendChild(resetBtnContainer); // A reset gomb hozzáadása a main-content panelhez
 });
+
